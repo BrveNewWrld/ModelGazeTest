@@ -1,1 +1,5 @@
 # ModelGazeTest
+
+-Bryant
+
+Primary scene is CharacterUI_test. In that scene there are a number "UI_trigger" prefabs attached to various parts of the character (so they move with him). These UI_triggers can be placed anywhere in the scene and used to activate the light halo around the character as well as Power_# objects nested under the Graphics gameobject. Additional UI_trigger prefabs can be pulled from the Assets folder as well. Note: you will have to drag the halo object, and any corresponding Power_# objects onto the PointerController script on UI_triger objects. Halo should always be the same, Power_# should be whichever explanation/graphic you want to display when the pointer hits the object. You can create any number of graphics/descriptions be duplicating each of the Power_# objects. Graphics can be swapped out by changing the image object. 
